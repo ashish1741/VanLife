@@ -13,7 +13,7 @@ function Hostvans() {
   
   const hostVansEle = vans.map((van)=>(
     <>
-    <Link to={`/host/vans/${van.id}`}
+    <Link to={van.id}
       key={van.id}
       className="host-van-link-wrapper">
         <div className="host-van-single" key={van.id}>
